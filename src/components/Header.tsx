@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const PHONE = "+919372923132";
 const PHONE_DISPLAY = "+91 93729 23132";
@@ -31,9 +32,11 @@ export default function Header() {
       >
         {/* Logo */}
         <Link href="/" style={{ display: "flex", alignItems: "center", gap: "0.5rem", flexShrink: 0 }}>
-          <img
+          <Image
             src="/Mumbai-cabs-logo.png"
             alt="Mumbai Cabs Rental Logo"
+            width={180}
+            height={44}
             style={{
               height: "44px",
               width: "auto",

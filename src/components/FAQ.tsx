@@ -39,7 +39,7 @@ export default function FAQ() {
             style={{
               display: "inline-block",
               background: "#fff7cc",
-              color: "#b8860b",
+              color: "#856000",
               fontWeight: 700,
               fontSize: "0.75rem",
               letterSpacing: "1.5px",

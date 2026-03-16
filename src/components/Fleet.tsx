@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 const VEHICLES = [
   {
@@ -87,7 +88,7 @@ export default function Fleet() {
             style={{
               display: "inline-block",
               background: "#fff7cc",
-              color: "#b8860b",
+              color: "#856000",
               fontWeight: 700,
               fontSize: "0.75rem",
               letterSpacing: "1.5px",
@@ -174,11 +175,11 @@ export default function Fleet() {
                   marginTop: "0.5rem"
                 }}
               >
-                <img
+                <Image
                   src={v.image}
                   alt={v.type}
-                  width="200"
-                  height="120"
+                  width={200}
+                  height={120}
                   style={{
                     maxWidth: "90%",
                     maxHeight: "100%",
@@ -201,7 +202,7 @@ export default function Fleet() {
               <h3 style={{ fontSize: "1.2rem", fontWeight: 800, color: "#0D0D0D", marginBottom: "2px" }}>
                 {v.type}
               </h3>
-              <p style={{ fontSize: "0.8rem", color: "#888", marginBottom: "1rem" }}>{v.example}</p>
+              <p style={{ fontSize: "0.8rem", color: "#666", marginBottom: "1rem" }}>{v.example}</p>
 
               <div style={{ display: "flex", flexDirection: "column", gap: "6px", marginBottom: "1.25rem" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.8rem" }}>

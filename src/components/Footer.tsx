@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 
 const PHONE = "+919372923132";
 const PHONE_DISPLAY = "+91 93729 23132";
@@ -38,11 +39,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "1rem" }}>
-              <img
+            <Image
                 src="/Mumbai-cabs-logo.png"
                 alt="Mumbai Cabs Rental Logo"
+                width={180}
+                height={44}
                 style={{
-                  height: "48px",
+                  height: "44px",
                   width: "auto",
                   objectFit: "contain"
                 }}
@@ -92,9 +95,9 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 style={{ color: "#fff", fontWeight: 700, fontSize: "0.9rem", marginBottom: "1rem", textTransform: "uppercase", letterSpacing: "0.5px" }}>
+            <h2 style={{ color: "#fff", fontWeight: 700, fontSize: "0.9rem", marginBottom: "1rem", textTransform: "uppercase", letterSpacing: "0.5px" }}>
               Services
-            </h3>
+            </h2>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {LINKS.map((l) => (
                 <li key={l.label}>
@@ -113,9 +116,9 @@ export default function Footer() {
 
           {/* Service Areas */}
           <div>
-            <h3 style={{ color: "#fff", fontWeight: 700, fontSize: "0.9rem", marginBottom: "1rem", textTransform: "uppercase", letterSpacing: "0.5px" }}>
+            <h2 style={{ color: "#fff", fontWeight: 700, fontSize: "0.9rem", marginBottom: "1rem", textTransform: "uppercase", letterSpacing: "0.5px" }}>
               Service Areas
-            </h3>
+            </h2>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
               {AREAS.map((a) => (
                 <span

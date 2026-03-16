@@ -56,7 +56,7 @@ export default function PopularRoutes() {
             style={{
               display: "inline-block",
               background: "#fff7cc",
-              color: "#b8860b",
+              color: "#856000",
               fontWeight: 700,
               fontSize: "0.75rem",
               letterSpacing: "1.5px",
@@ -131,8 +131,8 @@ export default function PopularRoutes() {
               </div>
 
               <div style={{ display: "flex", gap: "1.5rem", marginBottom: "1rem" }}>
-                <span style={{ fontSize: "0.8rem", color: "#888" }}>{r.distance}</span>
-                <span style={{ fontSize: "0.8rem", color: "#888" }}>{r.time}</span>
+                <span style={{ fontSize: "0.8rem", color: "#666" }}>{r.distance}</span>
+                <span style={{ fontSize: "0.8rem", color: "#666" }}>{r.time}</span>
               </div>
 
               <div
@@ -222,7 +222,7 @@ export default function PopularRoutes() {
           </a>
         </div>
 
-        <p style={{ textAlign: "center", marginTop: "2rem", color: "#888", fontSize: "0.85rem" }}>
+        <p style={{ textAlign: "center", marginTop: "2rem", color: "#666", fontSize: "0.85rem" }}>
           Need a different route?{" "}
           <a
             href={`https://wa.me/${WA}?text=Hi!%20I%20need%20a%20custom%20route%20cab.`}

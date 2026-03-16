@@ -59,6 +59,7 @@ export default function BookingForm() {
           <input
             type="text"
             name="pickup"
+            aria-label="Pickup Location"
             placeholder="Pickup Location"
             required
             value={form.pickup}
@@ -72,6 +73,7 @@ export default function BookingForm() {
           <input
             type="text"
             name="drop"
+            aria-label="Drop Location"
             placeholder="Drop Location"
             required
             value={form.drop}
@@ -84,6 +86,7 @@ export default function BookingForm() {
         <input
           type="datetime-local"
           name="date"
+          aria-label="Pickup Date and Time"
           required
           value={form.date}
           onChange={handleChange}
@@ -94,6 +97,7 @@ export default function BookingForm() {
         <input
           type="tel"
           name="phone"
+          aria-label="Your Phone Number"
           placeholder="Your Phone Number"
           value={form.phone}
           onChange={handleChange}
