@@ -46,11 +46,24 @@ const SERVICES: Service[] = [
         <path d="M12 7.5a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
       </svg>
     ),
-    title: "Outstation Trips",
+    title: "One Way Cab Service",
     desc: "One-way or round trips to Pune, Lonavala, Shirdi, Nashik, Mahabaleshwar & more.",
     features: ["One-way available", "Overnight trips", "Experienced drivers"],
     cta: "Book Outstation",
     link: "/outstation-cabs",
+  },
+  {
+    id: "corporate",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="#0D0D0D">
+        <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+      </svg>
+    ),
+    title: "Corporate Cabs",
+    desc: "Reliable transportation for employees and executives. Monthly billing and dedicated account management.",
+    features: ["Employee transport", "Executive rides", "Monthly billing"],
+    cta: "Book Corporate",
+    link: "/corporate-cab",
   },
 ];
 

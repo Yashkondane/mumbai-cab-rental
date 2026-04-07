@@ -61,7 +61,8 @@ const keywords = [
   "mumbai cab", "mumbai car rental service", "cab booking mumbai", "cab service mumbai", "mumbai darshan cabs", "mumbai taxi service", "taxi in mumbai", "cabs in mumbai", "taxi fare in mumbai", "mumbai taxi", "taxi booking mumbai", "taxi for mumbai darshan", "bombay cabs", "cab charges in mumbai", "cab companies in mumbai", "cab fare in mumbai", "mumbai cab fare", "mumbai taxi cab", "taxi charges in mumbai", "taxi charges mumbai", "taxi companies in mumbai", "taxi cost in mumbai", "taxi cost mumbai", "taxi fare mumbai", "taxi in bombay", "taxi to mumbai", "cab booking in mumbai", "rent a car in mumbai for outstation", "best cab service in mumbai", "best taxi service in mumbai", "mumbai full day taxi charges", "one way cab mumbai", "online cab booking mumbai", "innova on rent mumbai", "online taxi booking mumbai", "full day taxi in mumbai", "local taxi service in mumbai", "cab rental mumbai", "mumbai sightseeing cab", "mumbai darshan by car", "local cab service in mumbai", "mumbai to matheran cab", "taxi booking in mumbai", "mumbai darshan cab price", "innova car rental mumbai", "mumbai to imagica taxi", "best car hire in mumbai", "cab service for mumbai darshan", "dadar taxi stand", "hire a taxi in mumbai", "imagica to mumbai cab", "innova car hire in mumbai", "local cab in mumbai", "local taxi in mumbai", "mumbai cab rental services", "mumbai cabs for hire", "mumbai car taxi", "mumbai darshan cab charges", "mumbai darshan cab fare", "mumbai darshan taxi booking", "mumbai darshan taxi fare", "mumbai sightseeing taxi", "mumbai taxi car", "mumbai to imagica cab", "mumbai to matheran cab fare", "mumbai to matheran taxi", "mumbai to matheran taxi charges", "mumbai to matheran taxi fare", "private car rental mumbai", "full day car rental mumbai", "taxi rental mumbai", "mumbai darshan taxi price", "private taxi service mumbai", "mumbai darshan car booking", "luxury taxi mumbai", "cabs in mumbai for a day", "ac cab fare mumbai", "ac cabs in mumbai", "ac taxi fare in mumbai", "ac taxi in mumbai", "andheri to bandra taxi fare", "andheri to borivali taxi fare", "andheri to dadar taxi fare", "andheri to goregaon taxi fare", "andheri to mumbai airport taxi fare", "andheri to nariman point taxi fare", "andheri to powai taxi fare", "andheri to worli taxi fare", "bandra terminus to dadar taxi fare", "bandra terminus to lokmanya tilak terminus taxi fare", "bandra terminus to powai taxi fare", "bandra to airport taxi fare", "bandra to chembur taxi fare", "bandra to andheri taxi fare", "bandra to colaba taxi fare", "bandra to cst taxi fare", "bandra to dadar taxi fare", "bandra to lower parel taxi fare", "bandra to ltt taxi fare", "bandra to mulund taxi fare", "bandra to mumbai airport taxi fare", "bandra to nariman point taxi fare", "bandra to siddhivinayak temple taxi fare", "bandra to worli taxi fare", "best cab app in mumbai", "best cabs for mumbai darshan", "best cab in mumbai", "best taxi in mumbai", "best taxi mumbai", "borivali to andheri taxi fare", "borivali to chembur taxi fare", "borivali to dadar taxi fare", "borivali to imagica cab", "borivali to lokmanya tilak terminus taxi fare", "borivali to powai taxi fare", "borivali to siddhivinayak temple taxi fare", "byculla to cst taxi fare", "byculla to haji ali taxi fare", "byculla to worli taxi fare", "cab facility in mumbai", "cab for hire in mumbai",
 
   // Outstation Expansion
-  "mumbai outstation cab", "rent a car in mumbai for outstation", "best outstation cab service in mumbai", "outstation taxi service in mumbai", "car hire for outstation in mumbai", "hire a cab in mumbai", "mumbai outstation taxi", "outstation cab booking mumbai", "outstation cab service in mumbai", "cab booking in mumbai for outstation", "cab service in mumbai for outstation", "car for outstation from mumbai", "car on rent for outstation in mumbai", "intercity cab service mumbai", "intercity cabs mumbai", "mumbai cab service for outstation", "mumbai to outstation cabs", "one side taxi mumbai", "one side taxi mumbai maharashtra", "one way drop taxi mumbai", "outstation cabs from mumbai airport", "outstation car rental rates in mumbai", "outstation cars in mumbai", "taxi service in mumbai for outstation round trip cab", "round trip cab booking", "round trip taxi", "cab round trip", "round trip taxi service", "book cab for round trip", "book round trip cabs", "cab for outstation round trip"
+  "mumbai outstation cab", "rent a car in mumbai for outstation", "best outstation cab service in mumbai", "outstation taxi service in mumbai", "car hire for outstation in mumbai", "hire a cab in mumbai", "mumbai outstation taxi", "outstation cab booking mumbai", "outstation cab service in mumbai", "cab booking in mumbai for outstation", "cab service in mumbai for outstation", "car for outstation from mumbai", "car on rent for outstation in mumbai", "intercity cab service mumbai", "intercity cabs mumbai", "mumbai cab service for outstation", "mumbai to outstation cabs", "one side taxi mumbai", "one side taxi mumbai maharashtra", "one way drop taxi mumbai", "outstation cabs from mumbai airport", "outstation car rental rates in mumbai", "outstation cars in mumbai", "taxi service in mumbai for outstation round trip cab", "round trip cab booking", "round trip taxi", "cab round trip", "round trip taxi service", "book cab for round trip", "book round trip cabs", "cab for outstation round trip",
+  "corporate taxi services", "corporate cab services", "corporate taxi", "taxi corporate", "cab service for corporate employees", "corporate cab", "corp cabs", "corporate cab booking", "taxi accounts", "corporate cabs prices", "corporate taxi booking", "corporate taxi hire", "corporate cabs phone number"
 ];
 
 const groups = {
@@ -347,19 +348,19 @@ const groups = {
   },
   "outstation-cabs": {
     slug: "outstation-cabs",
-    routeTitle: "Outstation Trips",
+    routeTitle: "One Way Cab Service",
     price: "On Call",
     distance: "On Call",
     duration: "On Call",
     h1Title: "Premium ",
-    h1Highlight: "Outstation Cabs from Mumbai",
-    heroSubtitle: "Book reliable outstation cabs from Mumbai. One-way or round trips to Pune, Lonavala, Shirdi, Nashik, Mahabaleshwar & beyond.",
+    h1Highlight: "One Way Cab Service from Mumbai",
+    heroSubtitle: "Book reliable one-way cab services from Mumbai. Direct door-to-door drops to Pune, Lonavala, Shirdi, Nashik, Mahabaleshwar & beyond.",
     metaTitle: "Outstation Cab Service Mumbai | One-Way & Round Trips",
     metaDescription: "Best outstation cab service in Mumbai. Book AC taxis for trips to Pune, Nashik, Shirdi, Lonavala, and more. Affordable on-call pricing.",
     keywords: [],
     content: [
       "Looking for a reliable outstation cab service from Mumbai? Whether you're planning a weekend getaway to Lonavala, a pilgrimage to Shirdi, or a business trip to Pune, we provide comfortable and affordable intercity travel solutions. Our fleet of well-maintained AC sedans and SUVs ensures a safe and relaxing journey for you and your family.",
-      "We offer flexible booking options including one-way drops and round-trip packages to all major destinations across Maharashtra and beyond. Our experienced drivers are thoroughly trained in highway driving and familiar with all popular outstation routes, ensuring timely and stress-free arrivals.",
+      "We offer flexible booking options including one-way cab services with door to door service provided to all major destinations across Maharashtra and beyond. Our experienced drivers are thoroughly trained in highway driving and familiar with all popular outstation routes, ensuring timely and stress-free arrivals.",
       "We believe in transparent, competitive pricing with no hidden charges. Since outstation travel requirements vary, we offer customizable 'On Call' pricing based on your specific destination, vehicle choice, and trip duration. Contact us 24/7 via phone or WhatsApp to get an instant quote and book your outstation ride today!"
     ],
     keyword: "outstation cabs mumbai",
@@ -403,6 +404,26 @@ const groups = {
       "Enjoy the benefit of a fixed, starting fare of ₹4500 for the return journey. Our drivers prioritize your safety and comfort throughout the 5.5 - 6 hour drive back. Book your Mahabaleshwar to Mumbai taxi via WhatsApp and secure a stress-free return trip today!"
     ],
     keyword: "mahabaleshwar to mumbai cab",
+    keywordList: []
+  },
+  "corporate-cab": {
+    slug: "corporate-cab",
+    routeTitle: "Corporate Cabs",
+    price: "On Call",
+    distance: "Customized",
+    duration: "24/7 Priority",
+    h1Title: "Professional ",
+    h1Highlight: "Corporate Cab Services in Mumbai",
+    heroSubtitle: "Premium employee transportation and executive cab services in Mumbai. Reliable, safe, and cost-effective solutions for your business needs.",
+    metaTitle: "Corporate Cab Services Mumbai | Employee Transport & Executive Taxis",
+    metaDescription: "Reliable corporate cab services in Mumbai. We offer employee transport, executive car rentals, and monthly basis cab provided for businesses. Dedicated 24/7 priority support.",
+    keywords: [],
+    content: [
+      "Mumbai Cabs Rental provides high-quality corporate cab services tailored to the needs of modern businesses. Whether you require daily employee transportation, airport transfers for visiting executives, or reliable cabs for inter-office meetings, our dedicated corporate fleet is at your service. We understand the importance of punctuality and professionalism in the corporate world.",
+      "Our corporate solutions include flexible monthly basis cab provided, dedicated account management, and a variety of well-maintained vehicles ranging from executive sedans like the Maruti Suzuki Dzire to premium SUVs like the Toyota Innova Crysta. All our drivers are professionally trained, background-verified, and strictly adhere to corporate safety standards.",
+      "We offer customized packages based on your company's specific travel requirements and volume. With 24/7 priority support and easy booking via WhatsApp or phone, managing your business travel has never been easier. Contact us today to discuss your corporate cab needs and get a customized quote for your organization."
+    ],
+    keyword: "corporate taxi services",
     keywordList: []
   }
 };
@@ -471,6 +492,12 @@ keywords.forEach(kw => {
       } else {
           group = "mahabaleshwar-mumbai";
       }
+  } else if (
+    k.includes("corporate") || 
+    k.includes("corp cabs") || 
+    k.includes("taxi accounts")
+  ) {
+    group = "corporate-cab";
   } else if (
      k.includes("outstation") || 
      k.includes("intercity") || 

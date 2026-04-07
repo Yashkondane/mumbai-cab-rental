@@ -3,16 +3,28 @@ import Image from "next/image";
 
 const VEHICLES = [
   {
-    type: "Hyundai Xcent",
+    type: "Maruti Suzuki Dzire",
     example: "Sedan (Compact)",
     capacity: 4,
     luggage: "2 bags",
     ac: true,
-    bestFor: "Budget city rides",
+    bestFor: "Budget city & outstation",
     priceTag: "Most Affordable",
     color: "#ffffff",
     accent: "#FFD200",
-    image: "/3e749adc-c6c0-4b25-b723-8007671280a2.png"
+    image: "/afbcef1f-1be9-4b89-ae8d-03ec94a690cc.png"
+  },
+  {
+    type: "Hyundai Aura",
+    example: "Sedan",
+    capacity: 4,
+    luggage: "2-3 bags",
+    ac: true,
+    bestFor: "Airport & city rides",
+    priceTag: "Comfort Sedan",
+    color: "#ffffff",
+    accent: "#FFD200",
+    image: "/84710d4b-87c4-4d49-a7b3-6bb9da77ffd0.png"
   },
   {
     type: "Toyota Innova",
@@ -26,18 +38,6 @@ const VEHICLES = [
     accent: "#FFD200",
     badge: "Best Seller",
     image: "/5973ef0a-0888-4f6d-ad97-f83f1fddcf9b.png"
-  },
-  {
-    type: "Toyota Etios",
-    example: "Sedan",
-    capacity: 4,
-    luggage: "2-3 bags",
-    ac: true,
-    bestFor: "Airport & outstation",
-    priceTag: "Comfort Sedan",
-    color: "#ffffff",
-    accent: "#FFD200",
-    image: "/34fcdd4e-1ced-45a9-a292-6dc41dfd39a9.png"
   },
   {
     type: "Maruti Suzuki Ertiga",

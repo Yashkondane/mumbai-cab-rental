@@ -1216,13 +1216,13 @@ export const seoRoutes: SeoRouteData[] = [
   },
   {
     "slug": "outstation-cabs",
-    "routeTitle": "Outstation Trips",
+    "routeTitle": "One Way Cab Service",
     "price": "On Call",
     "distance": "On Call",
     "duration": "On Call",
     "h1Title": "Premium ",
-    "h1Highlight": "Outstation Cabs from Mumbai",
-    "heroSubtitle": "Book reliable outstation cabs from Mumbai. One-way or round trips to Pune, Lonavala, Shirdi, Nashik, Mahabaleshwar & beyond.",
+    "h1Highlight": "One Way Cab Service from Mumbai",
+    "heroSubtitle": "Book reliable one-way cab services from Mumbai. Direct door-to-door drops to Pune, Lonavala, Shirdi, Nashik, Mahabaleshwar & beyond.",
     "metaTitle": "Outstation Cab Service Mumbai | One-Way & Round Trips",
     "metaDescription": "Best outstation cab service in Mumbai. Book AC taxis for trips to Pune, Nashik, Shirdi, Lonavala, and more. Affordable on-call pricing.",
     "keywords": [
@@ -1259,7 +1259,7 @@ export const seoRoutes: SeoRouteData[] = [
     ],
     "content": [
       "Looking for a reliable outstation cab service from Mumbai? Whether you're planning a weekend getaway to Lonavala, a pilgrimage to Shirdi, or a business trip to Pune, we provide comfortable and affordable intercity travel solutions. Our fleet of well-maintained AC sedans and SUVs ensures a safe and relaxing journey for you and your family.",
-      "We offer flexible booking options including one-way drops and round-trip packages to all major destinations across Maharashtra and beyond. Our experienced drivers are thoroughly trained in highway driving and familiar with all popular outstation routes, ensuring timely and stress-free arrivals.",
+      "We offer flexible booking options including one-way cab services with door to door service provided to all major destinations across Maharashtra and beyond. Our experienced drivers are thoroughly trained in highway driving and familiar with all popular outstation routes, ensuring timely and stress-free arrivals.",
       "We believe in transparent, competitive pricing with no hidden charges. Since outstation travel requirements vary, we offer customizable 'On Call' pricing based on your specific destination, vehicle choice, and trip duration. Contact us 24/7 via phone or WhatsApp to get an instant quote and book your outstation ride today!"
     ],
     "keyword": "outstation cabs mumbai",
@@ -1335,5 +1335,53 @@ export const seoRoutes: SeoRouteData[] = [
     ],
     "keyword": "mahabaleshwar to mumbai cab",
     "keywordList": []
+  },
+  {
+    "slug": "corporate-cab",
+    "routeTitle": "Corporate Cabs",
+    "price": "On Call",
+    "distance": "Customized",
+    "duration": "24/7 Priority",
+    "h1Title": "Professional ",
+    "h1Highlight": "Corporate Cab Services in Mumbai",
+    "heroSubtitle": "Premium employee transportation and executive cab services in Mumbai. Reliable, safe, and cost-effective solutions for your business needs.",
+    "metaTitle": "Corporate Cab Services Mumbai | Employee Transport & Executive Taxis",
+    "metaDescription": "Reliable corporate cab services in Mumbai. We offer employee transport, executive car rentals, and monthly basis cab provided for businesses. Dedicated 24/7 priority support.",
+    "keywords": [
+      "corporate taxi services",
+      "corporate cab services",
+      "corporate taxi",
+      "taxi corporate",
+      "cab service for corporate employees",
+      "corporate cab",
+      "corp cabs",
+      "corporate cab booking",
+      "taxi accounts",
+      "corporate cabs prices",
+      "corporate taxi booking",
+      "corporate taxi hire",
+      "corporate cabs phone number"
+    ],
+    "content": [
+      "Mumbai Cabs Rental provides high-quality corporate cab services tailored to the needs of modern businesses. Whether you require daily employee transportation, airport transfers for visiting executives, or reliable cabs for inter-office meetings, our dedicated corporate fleet is at your service. We understand the importance of punctuality and professionalism in the corporate world.",
+      "Our corporate solutions include flexible monthly basis cab provided, dedicated account management, and a variety of well-maintained vehicles ranging from executive sedans like the Maruti Suzuki Dzire to premium SUVs like the Toyota Innova Crysta. All our drivers are professionally trained, background-verified, and strictly adhere to corporate safety standards.",
+      "We offer customized packages based on your company's specific travel requirements and volume. With 24/7 priority support and easy booking via WhatsApp or phone, managing your business travel has never been easier. Contact us today to discuss your corporate cab needs and get a customized quote for your organization."
+    ],
+    "keyword": "corporate taxi services",
+    "keywordList": [
+      "corporate taxi services",
+      "corporate cab services",
+      "corporate taxi",
+      "taxi corporate",
+      "cab service for corporate employees",
+      "corporate cab",
+      "corp cabs",
+      "corporate cab booking",
+      "taxi accounts",
+      "corporate cabs prices",
+      "corporate taxi booking",
+      "corporate taxi hire",
+      "corporate cabs phone number"
+    ]
   }
 ];
