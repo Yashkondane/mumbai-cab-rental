@@ -12,7 +12,7 @@ const inter = Inter({
 const PHONE = "+919372923132";
 const PHONE_DISPLAY = "+91 93729 23132";
 const BUSINESS_NAME = "Mumbai Cabs Rental";
-const SITE_URL = "https://www.mumbaicabsrental.com";
+const SITE_URL = "https://www.mumbaicabsservice.com";
 
 export const metadata: Metadata = {
   title: "Mumbai Cabs Rental | Affordable Taxi Service in Mumbai — 24/7 Available",

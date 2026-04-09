@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: routeData.metaDescription,
     keywords: routeData.keywords,
     alternates: {
-      canonical: `https://mumbaicabsrental.com/${routeData.slug}`,
+      canonical: `https://www.mumbaicabsservice.com/${routeData.slug}`,
     },
   };
 }

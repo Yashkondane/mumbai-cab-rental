@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { seoRoutes } from '@/lib/seoData'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://mumbaicabsrental.com'
+  const baseUrl = 'https://www.mumbaicabsservice.com'
 
   const dynamicRoutes = seoRoutes.map((route) => ({
     url: `${baseUrl}/${route.slug}`,

@@ -21,6 +21,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       }
     ],
-    sitemap: 'https://mumbaicabsrental.com/sitemap.xml',
+    sitemap: 'https://www.mumbaicabsservice.com/sitemap.xml',
   }
 }
