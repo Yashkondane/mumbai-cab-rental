@@ -30,6 +30,10 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
+  icons: {
+    icon: "/Mumbai-cabs-logo.svg",
+    apple: "/Mumbai-cabs-logo.svg",
+  },
   openGraph: {
     title: "Mumbai Cabs Rental | Affordable Taxi Service in Mumbai",
     description:
