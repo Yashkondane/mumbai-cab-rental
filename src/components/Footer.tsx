@@ -70,7 +70,7 @@ export default function Footer() {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
                 </svg>
-                {PHONE_DISPLAY}
+                Call Now: {PHONE_DISPLAY}
               </a>
               <a
                 href={`https://wa.me/${WA}`}
@@ -140,30 +140,31 @@ export default function Footer() {
           </div>
 
           {/* Dedicated SEO Routes for Interlinking */}
-          <div style={{ gridColumn: "1 / -1", marginTop: "1rem" }}>
-            <h2 style={{ color: "#fff", fontWeight: 700, fontSize: "0.9rem", marginBottom: "1rem", textTransform: "uppercase", letterSpacing: "0.5px" }}>
+          <div style={{ gridColumn: "1 / -1", marginTop: "2rem", borderTop: "1px solid #222", paddingTop: "2rem" }}>
+            <h2 style={{ color: "#fff", fontWeight: 700, fontSize: "0.9rem", marginBottom: "1.5rem", textTransform: "uppercase", letterSpacing: "0.5px" }}>
               Top Outstation & City Destinations
             </h2>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+            <div style={{ 
+              display: "grid", 
+              gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))", 
+              gap: "1rem" 
+            }}>
               {seoRoutes.map((route) => (
                 <Link
                   key={route.slug}
                   href={`/${route.slug}`}
                   style={{
-                    fontSize: "0.8rem",
-                    color: "#777",
+                    fontSize: "0.85rem",
+                    color: "#888",
                     textDecoration: "none",
-                    borderBottom: "1px dashed #333",
                     paddingBottom: "2px",
-                    transition: "all 0.2s"
+                    transition: "color 0.2s"
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.color = "#FFD200";
-                    e.currentTarget.style.borderBottomColor = "#FFD200";
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.color = "#777";
-                    e.currentTarget.style.borderBottomColor = "#333";
+                    e.currentTarget.style.color = "#888";
                   }}
                 >
                   {route.routeTitle}
