@@ -119,7 +119,7 @@ export default function SeoContent({
                     How much does a cab for {routeTitle} cost?
                   </h4>
                   <p style={{ color: "#666", fontSize: "0.95rem", lineHeight: 1.6 }}>
-                    Our transparent pricing for {routeTitle} starts at {price}. There are no hidden fees, and you can choose between a variety of car models including Sedans and SUVs.
+                    The published fare of <strong>{price}</strong> is just the starting price. Final pricing may vary slightly based on the specific car model you choose (e.g., Sedans vs. SUVs like Innova), tolls, and exact drop locations. However, our pricing remains strictly transparent with zero hidden fees!
                   </p>
                 </div>
               )}
