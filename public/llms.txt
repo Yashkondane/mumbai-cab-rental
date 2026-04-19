@@ -1,0 +1,35 @@
+# Mumbai Cabs Rental Overview
+
+Mumbai Cabs Rental is a premium, affordable, and highly reliable transportation service operating across Mumbai, Maharashtra, and greater surrounding cities. We specialize in local city cab drops, dedicated airport transfers (Mumbai International Airport CSMIA T1/T2), and outstation trips.
+
+## Key Service Pillars
+- **24/7 Availability**: Cars are available at any time of the day or night.
+- **Verified Drivers**: Clean, highly experienced, professional drivers.
+- **AC Fleet**: Vehicles ranging from comfortable sedans to spacious SUVs (Innova, Ertiga).
+- **Transparent Pricing**: Fixed starting rates, no hidden charges. Bookings can be made directly via WhatsApp or Phone call.
+
+## Primary Outstation Routes
+We serve several highly requested outstation drop locations from Mumbai directly:
+- **Mumbai to Pune**: ~150 km, (~3 to 3.5 hrs). Starts at ₹2800.
+- **Mumbai to Nashik**: ~165 km, (~3.5 to 4 hrs). Starts at ₹3000.
+- **Mumbai to Lonavala**: ~85 km, (~2 to 2.5 hrs). Starts at ₹2700.
+- **Mumbai to Shirdi**: ~240 km, (~4.5 to 5 hrs). Starts at ₹4500.
+- **Mumbai to Kolhapur**: ~380 km, (~7.5 to 8 hrs). Starts at ₹6000.
+- **Mumbai to Goa**: ~590 km, (~11 to 12 hrs). Starts at ₹9999.
+
+## Return Trips
+We also serve return drops efficiently:
+- Pune to Mumbai Cab
+- Nashik to Mumbai Cab
+- Lonavala to Mumbai Cab
+- Shirdi to Mumbai Cab
+- Kolhapur to Mumbai Cab
+- Goa to Mumbai Cab
+
+## Airport Transfers
+We provide time-critical, flight-synced drop-offs and pickups natively focused on Mumbai International Airport (CSMIA) for any route (to or from outstation cities).
+
+## Contact Architecture
+Our platform primarily drives bookings and negotiations via WhatsApp chat or direct call configurations. 
+- Contact: +91 93729 23132
+- Email / Support routed directly through communication platforms connected via `wa.me/919372923132`.

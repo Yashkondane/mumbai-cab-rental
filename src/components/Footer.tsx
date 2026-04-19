@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import { seoRoutes } from "@/lib/seoData";
 
 const PHONE = "+919372923132";
 const PHONE_DISPLAY = "+91 93729 23132";
@@ -134,6 +135,39 @@ export default function Footer() {
                 >
                   {a}
                 </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Dedicated SEO Routes for Interlinking */}
+          <div style={{ gridColumn: "1 / -1", marginTop: "1rem" }}>
+            <h2 style={{ color: "#fff", fontWeight: 700, fontSize: "0.9rem", marginBottom: "1rem", textTransform: "uppercase", letterSpacing: "0.5px" }}>
+              Top Outstation & City Destinations
+            </h2>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+              {seoRoutes.map((route) => (
+                <Link
+                  key={route.slug}
+                  href={`/${route.slug}`}
+                  style={{
+                    fontSize: "0.8rem",
+                    color: "#777",
+                    textDecoration: "none",
+                    borderBottom: "1px dashed #333",
+                    paddingBottom: "2px",
+                    transition: "all 0.2s"
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.color = "#FFD200";
+                    e.currentTarget.style.borderBottomColor = "#FFD200";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.color = "#777";
+                    e.currentTarget.style.borderBottomColor = "#333";
+                  }}
+                >
+                  {route.routeTitle}
+                </Link>
               ))}
             </div>
           </div>
